@@ -1,137 +1,77 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from './styles';
+import Arquitetura from '../../Img/Arquitetura.PNG';
+import Biologia from '../../Img/Biologia.PNG';
+import Ciencia from '../../Img/Ciencia_Computacao.PNG';
+import Contabilidade from '../../Img/Contabilidade.PNG';
+import Engenharia from '../../Img/Engenharia_Computacao.PNG';
+import Educacao_Fisica from '../../Img/Educacao_Fisica.PNG';
+import Enfermagem from '../../Img/Enfermagem.PNG';
+import Direito from '../../Img/Direito.PNG';
+import Fisioterapia from '../../Img/Fisioterapia.PNG';
+import Nutricao from '../../Img/Nutricao.PNG';
+import Pedagogia from '../../Img/Pedagogia.PNG';
+import Psicologia from '../../Img/Psicologia.PNG';
 
 function infosusers() {
-
+    document.title = 'UNASP - SELEÇÃO'
   return <>
     <Container>
      <div className="main">
       <h1>Escolha Um Curso !</h1>
         <div className="OptionsList">
-          <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Publicidade E Propaganda
-              </p>
-            </button>
-          </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Educação Física
-              </p>
-            </button>
+              <img src={Arquitetura} alt="Curso Arquitetura"/>
           </Link>
           
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Direito
-              </p>
-            </button>
+              <img src={Biologia} alt="Curso Biologia"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-            <p>
-              Administração
-            </p>
-            </button>
+              <img src={Ciencia} alt="Curso Ciencia da Computacao"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Ciencias Biologicas
-              </p>
-            </button>
+              <img src={Contabilidade} alt="Curso Contabilidade"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Pedagogia
-              </p>
-            </button>
+              <img src={Direito} alt="Curso Direito"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Ciencia Da Computação
-              </p>
-            </button>
+              <img src={Engenharia} alt="Curso Engenharia"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Engenharia Da Computação
-              </p>
-            </button>
+              <img src={Educacao_Fisica} alt="Curso Educacao Fisica"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Nutrição
-              </p>
-            </button>
+              <img src={Enfermagem} alt="Curso Enfermagem"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Agronomia
-              </p>
-            </button>
+              <img src={Fisioterapia} alt="Curso Fisioterapia"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Engenharia
-              </p>
-            </button>
+              <img src={Nutricao} alt="Curso Nutrição"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                História
-              </p>
-            </button>
+              <img src={Pedagogia} alt="Curso Pedagogia"/>
           </Link>
 
           <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Contabilidade
-              </p>
-            </button>
+              <img src={Psicologia} alt="Curso Psicologia"/>
           </Link>
-
-          <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Fisiotarepia
-              </p>
-            </button>
-          </Link>
-
-          <Link className="button"to="/infosusers">
-            <button>
-              <p>
-                Enfermagem
-              </p>
-            </button>
-          </Link>
+             
         </div>
-
      </div>
-     
 
     </Container>
   </>;

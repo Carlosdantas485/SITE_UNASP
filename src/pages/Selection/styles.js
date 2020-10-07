@@ -30,38 +30,24 @@ export const Container = styled.div`
         width: 100%;
         display: flex;
         align-items:center;
+        justify-content:center;
         flex-wrap:wrap;
 
-
-        .iframe{
-            width:560px;
-            height:300px;
-        }
-
         .button{
-            width:50%;
+            width:250px;
             display:flex;
             justify-content:center;
-            text-decoration:none;
+            margin:5px;
+            
+            &:hover{
+                transition: 0.3s;
+                transform: scale(1.06)
 
-            button{
-                    margin-top: 30px;
-                    width:250px;
-                    height: 50px;
-                    background-color: #F14E23;
-                    color:white;
-                    border-radius:10px;
-                    font-weight:bold;
-                    transition:0.3s;
-                    display:flex;
-                    align-items:center;
-                    justify-content:center;
-                    padding:5px;
             }
 
-            button:hover{
-                background-color: #1C2D50;
-
+           
+            img{
+                width:100%;
             }
                     
             p{

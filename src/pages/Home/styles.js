@@ -20,26 +20,20 @@ export const Container = styled.div`
    
 
    .iframe{
-       width:560px;
-       height:300px;
+       width:660px;
+       height:400px;
    }
 
    .button{
-        button{
-            margin-top: 30px;
-            margin-top: 10px;
-            width:150px;
-            height: 50px;
-            background-color: #F14E23;
-            color:white;
-            border-radius:10px;
-            font-weight:bold;
-            transition:0.3s;
-        }
-        button:hover{
-            background-color: #1C2D50;
+       margin-top: 10px;
+       img{
+           width: 300px;
 
-        }
+           &:hover{
+               transform:scale(1.06);
+               transition: 0.3s;
+           }
+       }
        
    }
 

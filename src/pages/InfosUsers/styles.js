@@ -31,23 +31,30 @@ export const Container = styled.div`
             justify-content:space-between;
             
             .input_name{
-                width:75%;
+                width:65%;
             }
 
             .input_phone{
-                width:20%;
+                margin-left: 10px;
+                width:30%;
             }
         }
-        
+    }
     input{
         width:98%;
         height: 20px;
         margin-top:10px;
         border:none;
         padding:5px;
-        border-radius: 5px;
         background-color:#cfced1;
         outline:none;
+        color:#fff;
+        background: rgb(248,174,61);
+        background: linear-gradient(14deg, rgba(248,174,61,1) 0%, rgba(233,80,28,1) 100%);
+
+        ::-webkit-input-placeholder {
+            color: white;
+        }
     }
 
     .div_button{
@@ -62,13 +69,14 @@ export const Container = styled.div`
             button{
                 margin-top: 10px;
                 width:150px;
-                height: 50px;
-                background-color: #F14E23;
+                height: 35px;
+                font-size: 15px;
+                background: rgb(248,174,61);
+                background: linear-gradient(14deg, rgba(248,174,61,1) 0%, rgba(233,80,28,1) 100%);
                 color:white;
-                border-radius:10px;
+                border-radius:50px;
                 font-weight:bold;
                 transition:0.3s;
-                    
                 padding:5px;
 
             }

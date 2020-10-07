@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 function InfosUsers() {
 
-   
+  document.title = 'UNASP - CADASTRO'
   return <>
     <Container>
       <div className="main">
@@ -25,7 +25,7 @@ function InfosUsers() {
               <p>Ciencia Da Computação</p>
             </div>
             <Link className="button"to="/infosCoordenation">
-              <button>Próximo</button>
+              <button>PRÒXIMO</button>
             </Link>
           </div>
 

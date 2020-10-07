@@ -50,54 +50,76 @@ export const Container = styled.div`
 
                 }
 
-                button{
-                    margin-top: 30px;
-                    width:250px;
-                    height: 50px;
-                    background-color: #F14E23;
-                    color:white;
-                    border-radius:10px;
-                    font-weight:bold;
-                    transition:0.3s;
-                    display:flex;
-                    align-items:center;
-                    justify-content:space-between;
-                    padding:5px;
-                    display:flex;
-                    flex-direction:column;
-                    justify-content:center;
+                img{
+                    width: 300px;
+
+                    &:hover{
+                        transition: 0.3s;
+                        transform:scale(1.06);
+                    }
                 }
 
-                button:hover{
-                    background-color: #1C2D50;
 
-                
-                }
             }            
         }
         .div_cupom{
-            margin-top:30px;
             background-color: #1C2D50;
             color:white;
-            padding:10px;
+            padding:15px;
             display:flex;
             flex-direction:column;
             align-items:center;
-            border: 2px dashed white;
+
+            
 
             .div_code{
                 width:200px;
                 height: 50px;
                 background-color: white;
                 color: red;
-                font-size: 20px;
+                font-size: 25px;
                 font-weight:bold;
-                margin:10px;
+                margin:15px;
 
                 display:flex;
                 flex-direction:column;
                 align-items:center;
                 justify-content:center;
+
+                animation: pulse 0.7s infinite;
+                margin: 0 auto;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                animation-direction: alternate;
+                -webkit-animation-name: pulse;
+                animation-name: pulse;
+                
+
+                @-webkit-keyframes pulse {
+                    0% {
+                        -webkit-transform: scale(1);
+                        -webkit-filter: brightness(100%);
+                    }
+                    100% {
+                        -webkit-transform: scale(1.1);
+                        -webkit-filter: brightness(200%);
+                    }
+                }
+
+                @keyframes pulse {
+                    0% {
+                        transform: scale(1);
+                        filter: brightness(100%);
+                    }
+                    100% {
+                        transform: scale(1.1);
+                        filter: brightness(200%);
+                    }
+                }
+
+
+
+                
             }
         }
     }

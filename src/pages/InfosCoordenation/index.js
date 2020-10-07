@@ -1,15 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container } from './styles';
+import Inscricao from '../../Img/BTN_Inscricao.PNG';
+import Coorden from '../../Img/Whats_Coordenador.PNG';
+import Instagram from '../../Img/instagram.PNG';
+
 
 function InfosCoordenation() {
 
-   
+    document.title = 'UNASP - INSCRIÇÃO'
   return <>
     <Container>
       <div className="main">
         <div className="div_box">
-            <img className="div_image" src="https://4.bp.blogspot.com/-Dyc-9MvdjVA/TaTcZX5-OjI/AAAAAAAABsE/z2ehlsMMaHY/s1600/anonimoC.jpg"></img>
+            <img className="div_image" alt="avatar"src="https://4.bp.blogspot.com/-Dyc-9MvdjVA/TaTcZX5-OjI/AAAAAAAABsE/z2ehlsMMaHY/s1600/anonimoC.jpg"></img>
             <div className="div_infos">
                 <table border="0">
                     <tr>
@@ -23,27 +26,19 @@ function InfosCoordenation() {
                     </tr>
                 </table>
 
-                <button>
-                    <p>
-                        Conversar com coordenação
-                    </p>
-                    <p>
-                        (11) 98765-4321
-                    </p>
-                </button>
+                
+                    <a href="https://vestibular.unasp.br/">
+                        <img src={Coorden} alt=""></img>
+                    </a>
 
-                <button>
-                    <p>
-                        Inscrição Do Vestibular
-                    </p>
-                   
-                </button>
+                    <a href="https://vestibular.unasp.br/">
+                        <img src={Inscricao} alt=""></img>
+                    </a>
 
-                <button>
-                    <p>
-                        Instagram
-                    </p>
-                </button>
+                    <a href="https://vestibular.unasp.br/">
+                        <img src={Instagram} alt=""></img>
+                    </a>
+        
             </div>
         </div>
         <div className="div_cupom">
