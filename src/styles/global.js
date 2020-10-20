@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Chilanka', cursive;
   }
   
    body {
@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         outline: 0;
         box-sizing: border-box;
         background-color: #1C2D50;
+        
 
         
     }

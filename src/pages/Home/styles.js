@@ -16,14 +16,29 @@ export const Container = styled.div`
         flex-direction: column;
         align-items:center;
         justify-content:center;
+
+       
     }
    
+    .box_text{
+        margin: 10px 60px;
 
-   .iframe{
-       width:660px;
-       height:400px;
-   }
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        p{
+            margin:5px;
+        }
 
+    }
+
+    .iframe{
+        width:660px;
+        height:400px;
+    }
+
+    
    .button{
        margin-top: 10px;
        img{

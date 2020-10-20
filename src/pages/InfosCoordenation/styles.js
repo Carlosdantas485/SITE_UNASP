@@ -63,7 +63,7 @@ export const Container = styled.div`
             }            
         }
         .div_cupom{
-            background-color: #1C2D50;
+carlos            background-color: #1C2D50;
             color:white;
             padding:15px;
             display:flex;
